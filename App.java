@@ -12,7 +12,7 @@ public class App {
             pool.execute(new MyThread(i));
         }
 
-        pool.logMetrics("App stop");
+        pool.logMetrics("this line has changed");
 
         pool.shutdown();
 
