@@ -12,7 +12,9 @@ public class App {
             pool.execute(new MyThread(i));
         }
 
-        pool.logMetrics("this line has changed");
+		//new line inserted to file
+        pool.logMetrics("this line has changed");		
+
 
         pool.shutdown();
 
