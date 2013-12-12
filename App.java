@@ -16,6 +16,9 @@ public class App {
 		//new line inserted to file
         pool.logMetrics("this line has changed");		
 
+		/*
+		to ommit merge
+		*/
 
         pool.shutdown();
 
