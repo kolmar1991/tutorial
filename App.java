@@ -12,6 +12,8 @@ public class App {
             pool.execute(new MyThread(i));
         }
 
+		//new line inserted to file
+		
         pool.logMetrics("App stop");
 
         pool.shutdown();
