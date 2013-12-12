@@ -14,7 +14,7 @@ public class App {
             pool.execute(new MyThread(i));
         }
 
-        pool.logMetrics("this line has changed");		
+        pool.logMetrics("this lin has changed");		
 
         pool.shutdown();
 
