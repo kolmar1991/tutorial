@@ -14,8 +14,8 @@ public class App {
         }
 
 		//new line inserted to file
-		
-        pool.logMetrics("App stop");
+        pool.logMetrics("this line has changed");		
+
 
         pool.shutdown();
 
