@@ -16,10 +16,6 @@ public class App {
 
         pool.logMetrics("this line has changed");		
 
-		/*
-		to ommit merge
-		*/
-
         pool.shutdown();
 
     }
