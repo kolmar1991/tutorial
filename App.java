@@ -12,7 +12,6 @@ public class App {
             pool.execute(new MyThread(i));
         }
 
-		//new line inserted to file
         pool.logMetrics("this line has changed");		
 
 
