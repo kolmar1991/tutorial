@@ -6,14 +6,12 @@ public class App {
 
         VerboseThreadPoolExecutor pool = new VerboseThreadPoolExecutor(3, 1);
         pool.logMetrics("App start");
-		//new line inserted
 
         for (int i = 0; i < 10; ++i) {
             System.out.println("Adding thread #" + i);
             pool.execute(new MyThread(i));
         }
 
-		//new line inserted to file
         pool.logMetrics("this line has changed");		
 
 		/*
